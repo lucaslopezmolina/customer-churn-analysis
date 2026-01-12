@@ -40,7 +40,7 @@ Power BI was used to:
 
 ## Dashboard Structure
 
-###Page 1 — Executive Overview
+### Page 1 — Executive Overview
 High-level churn indicators:
 
 -Total customers
