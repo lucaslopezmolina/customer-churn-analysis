@@ -1,50 +1,121 @@
-# customer-churn-analysis
-Customer Churn Analysis – Telecom Company
-1. Business Context
+# **Customer Churn Analysis & Retention Strategy**
+**Power BI + Python**
 
-Customer churn is a critical problem for subscription-based businesses.
-This project analyzes customer data from a telecom company to identify the main drivers of churn and propose data-driven retention strategies.
+## Project Overview
 
-2. Business Problem
+Customer churn represents a critical challenge for subscription-based businesses.
+This project analyzes customer churn patterns to identify key drivers, segment customers by risk level, and propose actionable, data-driven retention strategies.
 
-The company faces a high monthly churn rate but lacks visibility into:
+The workflow combines Python for exploratory data analysis (EDA) and Power BI for interactive analytics and business storytelling, ensuring both analytical rigor and decision-oriented insights.
 
-  -Which customers are most likely to churn
+## Business Objectives
 
-  -What factors are associated with churn
+-Understand overall customer churn behavior
+-Identify the main drivers of churn across contracts, tenure, and pricing
+-Segment customers by churn risk
+-Quantify revenue at risk
+-Prioritize retention actions with the highest business impact
 
-  -Which segments should be prioritized for retention actions
+## Analytical Workflow
 
-3. Objective
+The analysis follows a structured, end-to-end approach:
 
-  -Analyze customer behavior and churn patterns
+### 1 - Exploratory Data Analysis (Python)
 
-  -Identify key churn drivers
+Python was used to:
 
-  -Provide actionable insights to reduce churn
+-Explore data distributions and missing values
+-Validate churn rates and customer counts
+-Analyze relationships between churn, tenure, pricing, and contract types
+-Support hypothesis generation before dashboard design
 
-4. Key Questions
+### 2️- Interactive Analysis & Storytelling (Power BI)
 
-  -What is the overall churn rate?
+Power BI was used to:
 
-  -Which customer segments show higher churn?
+-Model churn-related metrics using DAX
+-Build interactive dashboards
+-Translate analytical findings into business insights
+-Enable segmentation, prioritization, and decision-making
 
-  -Which variables are most strongly associated with churn?
+### Dashboard Structure
+Page 1 — Executive Overview
+High-level churn indicators:
 
-  -How do tenure, pricing, and contract type impact churn?
+-Total customers
+-Overall churn rate
+-Average tenure
+-Average monthly charges
+-Churn distribution
+-Churn by contract type and tenure group
 
-5. Tools & Technologies
+Key insight:
+Month-to-month contracts show significantly higher churn compared to long-term contracts.
 
-  -Python (EDA & statistical analysis)
+### Page 2 — Contract & Pricing Analysis
+Deep dive into churn drivers:
 
-  -Power BI (Dashboard & storytelling)
+-Churn rate by contract type
+-Monthly charges comparison between churned and retained customers
+-Churn behavior across pricing tiers
 
-  -Excel (initial exploration)
+Key insight:
+High-paying, month-to-month customers churn at substantially higher rates, highlighting price sensitivity combined with low contractual commitment.
 
-6. Expected Outcome
+### Page 3 — Retention Opportunities
+Action-oriented segmentation and prioritization:
 
-  -Clear identification of high-risk customer segments
+-High-risk customer count
+-Churn rate for the high-risk segment
+-Revenue at risk
+-Risk-based customer segmentation
 
-  -Data-driven recommendations for churn reduction
+-uggested retention actions by segment
 
-  -Interactive Power BI dashboard for decision-makers
+Key insight:
+Targeting high-paying, short-tenure, month-to-month customers offers the greatest retention impact.
+
+### Customer Risk Segmentation
+Customers were segmented based on:
+
+-Contract type
+-Customer tenure
+-Monthly charges
+
+Risk Segment	Description
+-High Risk:	Month-to-month customers with high monthly charges and short tenure
+-Medium Risk:	Month-to-month customers with moderate charges or mid-range tenure
+-Low Risk:	Long-term or high-tenure customers
+
+This segmentation enables focused retention strategies with higher expected ROI.
+
+### Business Recommendations
+
+-High Risk Customers
+Offer targeted discounts, contract upgrades, or personalized retention incentives.
+
+-Medium Risk Customers
+Promote service bundles or loyalty programs to increase perceived value.
+
+-Low Risk Customers
+No immediate action required; continue monitoring and maintaining service quality.
+
+## Tools & Technologies
+
+-Python
+-Pandas
+-NumPy
+-Matplotlib / Seaborn (Exploratory Data Analysis & validation)
+-Power BI
+-Data modeling
+-DAX measures
+-Interactive dashboards & storytelling
+-Excel
+
+## Key Takeaways
+
+-Churn is primarily driven by contract flexibility and pricing sensitivity
+-A relatively small customer segment concentrates a disproportionate share of churn and revenue risk
+-Combining Python EDA with Power BI storytelling leads to more robust and defensible insights
+-Data-driven segmentation enables focused, high-impact retention strategies
+
