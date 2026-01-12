@@ -85,7 +85,9 @@ Customers were segmented based on:
 
 ## Risk Segment	Description
 -High Risk:	Month-to-month customers with high monthly charges and short tenure
+
 -Medium Risk:	Month-to-month customers with moderate charges or mid-range tenure
+
 -Low Risk:	Long-term or high-tenure customers
 
 This segmentation enables focused retention strategies with higher expected ROI.
