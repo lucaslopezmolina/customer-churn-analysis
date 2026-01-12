@@ -38,8 +38,9 @@ Power BI was used to:
 -Translate analytical findings into business insights
 -Enable segmentation, prioritization, and decision-making
 
-### Dashboard Structure
-Page 1 — Executive Overview
+## Dashboard Structure
+
+###Page 1 — Executive Overview
 High-level churn indicators:
 
 -Total customers
@@ -75,21 +76,21 @@ Action-oriented segmentation and prioritization:
 Key insight:
 Targeting high-paying, short-tenure, month-to-month customers offers the greatest retention impact.
 
-### Customer Risk Segmentation
+## Customer Risk Segmentation
 Customers were segmented based on:
 
 -Contract type
 -Customer tenure
 -Monthly charges
 
-Risk Segment	Description
+## Risk Segment	Description
 -High Risk:	Month-to-month customers with high monthly charges and short tenure
 -Medium Risk:	Month-to-month customers with moderate charges or mid-range tenure
 -Low Risk:	Long-term or high-tenure customers
 
 This segmentation enables focused retention strategies with higher expected ROI.
 
-### Business Recommendations
+## Business Recommendations
 
 -High Risk Customers
 Offer targeted discounts, contract upgrades, or personalized retention incentives.
