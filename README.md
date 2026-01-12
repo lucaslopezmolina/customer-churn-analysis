@@ -67,11 +67,14 @@ High-paying, month-to-month customers churn at substantially higher rates, highl
 Action-oriented segmentation and prioritization:
 
 -High-risk customer count
+
 -Churn rate for the high-risk segment
+
 -Revenue at risk
+
 -Risk-based customer segmentation
 
--uggested retention actions by segment
+-Suggested retention actions by segment
 
 Key insight:
 Targeting high-paying, short-tenure, month-to-month customers offers the greatest retention impact.
