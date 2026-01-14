@@ -11,9 +11,13 @@ The workflow combines Python for exploratory data analysis (EDA) and Power BI fo
 ## Business Objectives
 
 -Understand overall customer churn behavior
+
 -Identify the main drivers of churn across contracts, tenure, and pricing
+
 -Segment customers by churn risk
+
 -Quantify revenue at risk
+
 -Prioritize retention actions with the highest business impact
 
 ## Analytical Workflow
@@ -25,8 +29,11 @@ The analysis follows a structured, end-to-end approach:
 Python was used to:
 
 -Explore data distributions and missing values
+
 -Validate churn rates and customer counts
+
 -Analyze relationships between churn, tenure, pricing, and contract types
+
 -Support hypothesis generation before dashboard design
 
 ### 2️- Interactive Analysis & Storytelling (Power BI)
@@ -34,8 +41,11 @@ Python was used to:
 Power BI was used to:
 
 -Model churn-related metrics using DAX
+
 -Build interactive dashboards
+
 -Translate analytical findings into business insights
+
 -Enable segmentation, prioritization, and decision-making
 
 ## Dashboard Structure
@@ -44,10 +54,15 @@ Power BI was used to:
 High-level churn indicators:
 
 -Total customers
+
 -Overall churn rate
+
 -Average tenure
+
 -Average monthly charges
+
 -Churn distribution
+
 -Churn by contract type and tenure group
 
 Key insight:
@@ -57,7 +72,9 @@ Month-to-month contracts show significantly higher churn compared to long-term c
 Deep dive into churn drivers:
 
 -Churn rate by contract type
+
 -Monthly charges comparison between churned and retained customers
+
 -Churn behavior across pricing tiers
 
 Key insight:
@@ -83,7 +100,9 @@ Targeting high-paying, short-tenure, month-to-month customers offers the greates
 Customers were segmented based on:
 
 -Contract type
+
 -Customer tenure
+
 -Monthly charges
 
 ## Risk Segment	Description
@@ -109,19 +128,30 @@ No immediate action required; continue monitoring and maintaining service qualit
 ## Tools & Technologies
 
 -Python
+
 -Pandas
+
 -NumPy
+
 -Matplotlib / Seaborn (Exploratory Data Analysis & validation)
+
 -Power BI
+
 -Data modeling
+
 -DAX measures
+
 -Interactive dashboards & storytelling
+
 -Excel
 
 ## Key Takeaways
 
 -Churn is primarily driven by contract flexibility and pricing sensitivity
+
 -A relatively small customer segment concentrates a disproportionate share of churn and revenue risk
+
 -Combining Python EDA with Power BI storytelling leads to more robust and defensible insights
+
 -Data-driven segmentation enables focused, high-impact retention strategies
 
